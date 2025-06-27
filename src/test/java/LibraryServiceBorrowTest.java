@@ -10,7 +10,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Sample elaborate test case for Team Member 1
+ * Sample elaborate test case for FRANCISCO
  * Testing LibraryService.borrowBook() method
  */
 public class LibraryServiceBorrowTest {
@@ -33,7 +33,7 @@ public class LibraryServiceBorrowTest {
         mockUserRepository = EasyMock.createMock(UserRepository.class);
         mockEmailService = EasyMock.createMock(EmailService.class);
 
-        // Create service with injected mocks
+        // Create a service with injected mocks
         libraryService = new LibraryService(mockBookRepository, mockUserRepository, mockEmailService);
 
         // Set up test data
